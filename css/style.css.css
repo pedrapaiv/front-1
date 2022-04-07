@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.entrada{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+.titulo{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #1F2E45;
+}
+
+.caixa{
+    padding: 25px;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.caixa2 {
+
+    margin: 20px;
+    border-radius: 15px;
+    width: 30%;
+    min-height: 385px;
+    max-height: 500px;
+    min-width: 270px;
+    display: flex;
+    background-color: transparent;
+    color: white;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    padding: 15px 10px;
+    
+}
+
+h2{
+    color: white;
+}
+
+
+img.logo{
+    width: 179px;
+    height: 275px;
+
+}
+
+img.forte{
+    width: 350px;
+    height: 350px;
+}
+
+img.duna{
+    width: 350px;
+    height: 350px;
+}
+
+img.caju{
+    width: 350px;
+    height: 350px;
+}
+
+body{
+    background-image: url(../img/Natal5.jpg);
+}
+
+a{
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+
+
+footer{
+        background-color: transparent;
+        text-align: center;
+        padding: 25px;
+        color: white;
+    }
+    .logoend{
+        display: inline-block;
+        border-radius: 100px;
+        padding: 20px;
+    }
+    
+    .icone  a  img {
+        width: 55px;
+        height: 55px;
+        transition: 0.3s;
+    }
+    .icone a img:hover{
+        transform: scale(1.2) rotate(360deg);
+    
+    
+    }
